@@ -1,0 +1,120 @@
+* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffe6f0;
+    color: #000000;
+}
+
+.navbar {
+    background-color: #000000;
+    padding: 20px 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around; 
+    list-style: none;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff4d94;
+}
+
+.perfil-doctor {
+    display: flex;
+    justify-content: center;
+    margin: 50px 20px;
+}
+
+.tarjeta-perfil {
+    background-color: #ffffff;
+    padding: 40px; 
+    border-radius: 10px; 
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 650px;
+    border: 2px solid #ffb3d1;
+}
+
+.nombre-doctor {
+    color: #000000;
+    font-size: 32px;
+    margin-bottom: 10px; 
+}
+
+.especialidad {
+    color: #ff4d94;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+#descripcion-doctor {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.btn-agendar {
+    background-color: #ff4d94;
+    color: #ffffff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.4s ease, transform 0.2s ease; 
+}
+
+.btn-agendar:hover {
+    background-color: #000000;
+    color: #ff4d94;
+    transform: scale(1.05);
+}
+
+.comentarios-pacientes {
+    display: flex;
+    justify-content: center; 
+    gap: 30px; 
+    margin: 0 20px 50px 20px; 
+    flex-wrap: wrap; 
+}
+
+.tarjeta-comentario {
+    background-color: #ffffff;
+    padding: 30px; 
+    border-radius: 40px; 
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(255, 77, 148, 0.15); 
+}
+
+.tarjeta-comentario h3 {
+    margin-bottom: 15px;
+    color: #ff4d94;
+    font-size: 20px;
+}
+
+.tarjeta-comentario p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.fecha {
+    font-size: 13px;
+    color: #555555;
+}
